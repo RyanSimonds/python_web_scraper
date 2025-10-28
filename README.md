@@ -22,8 +22,8 @@ The scraper validates URLs, handles HTTP errors gracefully, and lets users speci
 
 
 ## To Run
-1. **Ensure Python 3 is installed on your system.**
-2. **Clone this repository:**
+1. Ensure Python 3 is installed on your system.
+2. Clone the repository:
    ```bash
    git clone https://github.com/YourUsername/web_scraper_terminal.git
    cd web_scraper_terminal
