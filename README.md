@@ -22,8 +22,19 @@ The scraper validates URLs, handles HTTP errors gracefully, and lets users speci
 
 
 ## To Run
-1. Ensure Python 3 is installed on your system.
-2. Clone the repository:
-   ```bash
-   git clone https://github.com/YourUsername/web_scraper_terminal.git
-   cd web_scraper_terminal
+1. Ensure **Python 3.10+** is installed on your system.  
+2. Clone the repository:  
+   ```
+   git clone https://github.com/RyanSimonds/web_scraper.git
+   cd web_scraper
+   ```
+3. Install dependencies:  
+   ```
+   pip install requests beautifulsoup4
+   ```
+4. Run the program:  
+   ```
+   python main.py
+   ```
+5. Paste any URL when prompted, and the program will scrape and display formatted text in the terminal.
+
