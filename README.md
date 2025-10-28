@@ -10,17 +10,6 @@ The scraper validates URLs, handles HTTP errors gracefully, and lets users speci
 - Graceful handling of connection, timeout, and HTTP exceptions  
 - Interactive user input and adjustable output length  
 
-## Functions Overview
-- **`is_valid_url(url: str) -> bool`**  
-  Validates that a string is a properly formatted URL with a scheme and domain.
-
-- **`render_with_styles(element)`**  
-  Recursively renders HTML tags (`<b>`, `<i>`, `<a>`) into styled terminal text, including clickable links.
-
-- **`main()`**  
-  Runs the full program — prompting the user for a URL, validating it, fetching data, and displaying styled text.
-
-
 ## To Run
 1. Ensure **Python 3.10+** is installed on your system.  
 2. Clone the repository:  
